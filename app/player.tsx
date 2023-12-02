@@ -7,10 +7,10 @@ const PlayerComponent: React.FC = () => {
         anime({
             targets: '.one',
             translateY: [-50, 0],
-            opacity: 1,
+            opacity: [0, 1],
             easing: 'easeOutSine',
             duration: 2000,
-            delay: anime.stagger(100), // Adjust the delay for the start of each animation
+            delay: anime.stagger(300), // Adjust the delay for the start of each animation
         });
         anime({
             targets: '.two',
@@ -18,7 +18,7 @@ const PlayerComponent: React.FC = () => {
             opacity: [0, 1],
             easing: 'easeOutSine',
             duration: 2000,
-            delay: anime.stagger(100), // Adjust the delay for the start of each animation
+            delay: anime.stagger(300), // Adjust the delay for the start of each animation
         });
         anime({
             targets: '.three',
@@ -26,7 +26,7 @@ const PlayerComponent: React.FC = () => {
             opacity: [0, 1],
             easing: 'easeOutSine',
             duration: 2000,
-            delay: anime.stagger(100), // Adjust the delay for the start of each animation
+            delay: anime.stagger(300), // Adjust the delay for the start of each animation
         });
         anime({
             targets: '.four',
@@ -34,7 +34,7 @@ const PlayerComponent: React.FC = () => {
             opacity: [0, 1],
             easing: 'easeOutSine',
             duration: 2000,
-            delay: anime.stagger(100), // Adjust the delay for the start of each animation
+            delay: anime.stagger(300), // Adjust the delay for the start of each animation
         });
     }, []);
     return null; // No need to render anything for this component
