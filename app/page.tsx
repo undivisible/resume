@@ -9,7 +9,7 @@ const Home: React.FC = () => {
                 <div className="one">
                     <div className="w-[663px] h-[311px] left-[2px] top-[17px] absolute bg-lgray rounded-[20px]"></div>
                     <div className="w-[266px] h-[61px] left-[25px] top-[245px] absolute text-bwhite text-5xl font-normal font-['Space Grotesk']">max carter.</div>
-                    <div className="w-[163px] h-[79px] left-[477px] top-[219px] absolute text-right text-bwhite text-base font-normal font-['Space Grotesk']">melbourne, australia.<br/>o@undivisible.dev<br/>undivisible.dev<br/>0481729894</div>
+                    <div className="w-[163px] h-[79px] left-[477px] top-[219px] absolute text-right text-bwhite text-base font-normal font-['Space Grotesk']">melbourne, australia.<br/><a href='mailto:o@undivisible.dev' className='hover:underline'>o@undivisible.dev</a><br/><a href='https://undivisible.dev' className='hover:underline'>undivisible.dev</a><br/>0481729894</div>
                 </div>
                 <div className="two">
                     <div className="w-[663px] h-[194px] left-[3px] top-[346px] absolute bg-lgray rounded-[20px]"></div>
