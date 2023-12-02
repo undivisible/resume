@@ -4,6 +4,7 @@ import PlayerComponent from './player'; // Import the client-side component
 const Home: React.FC = () => {
     return (
       <div className="flex justify-center items-center h-screen w-screen bg-dgray">
+        <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png?20091205084734" sizes="any" />
         <div className="flex flex-wrap justify-center items-start gap-6">
             <div className="w-[668px] h-[920px] relative">
                 <div className="one">
