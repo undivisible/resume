@@ -2,7 +2,7 @@
 import React, { useEffect } from 'react';
 import anime from 'animejs'; // Import the anime library
 
-const Player: React.FC = () => {
+const PlayerComponent: React.FC = () => {
     useEffect(() => {
         anime({
             targets: '.one',
@@ -40,4 +40,4 @@ const Player: React.FC = () => {
     return null; // No need to render anything for this component
 };
 
-export default Player;
+export default PlayerComponent;
