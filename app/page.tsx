@@ -53,7 +53,6 @@ const Home: React.FC = () => {
                 <div className="w-[353px] h-[259px] left-[251px] top-[609px] absolute text-right text-bwhite text-xl font-normal font-['Space Grotesk']">undertook 3 days of work experience at the swiper gully coffee shop, developing hospitality skills, and experience as a barista making coffees.<br/><br/>undertook a 10 hour (total) cybersecurity course, developing penetration testing skills, as well as prevention of threats.</div>
                 <div className="w-[345px] h-[285px] left-[259px] top-[33px] absolute text-right"><span className="text-bwhite text-xl font-normal font-['Space Grotesk']">worked 4 days on a production line<br/></span><span className="text-bwhite text-xl font-normal font-['Space Grotesk']">developed teamwork skills<br/></span><span className="text-bwhite text-xl font-normal font-['Space Grotesk']"><br/>worked a week doing video editing<br/></span><span className="text-bwhite text-xl font-normal font-['Space Grotesk']">gained familiarity with premiere<br/>beat syncing, motion, stabilisation, time remapping, effects, colour correction and audio editing<br/></span><span className="text-bwhite text-xl font-normal font-['Space Grotesk']"><br/>worked three days in a coffee shop</span></div>
             </div>
-            <script src="anime.min.js"></script>
         </div>
         <Player />
       </div>
