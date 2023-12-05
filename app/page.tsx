@@ -1,7 +1,8 @@
 import React from 'react';
+import DetectionComponent from './detection';
 import PlayerComponent from './player'; // Import the client-side component
 
-const Home: React.FC = () => {
+const Home= React.memo(() => {
     return (
       <div className="flex justify-center items-center h-screen w-screen bg-dgray">
         <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png?20091205084734" sizes="any" />
@@ -55,9 +56,12 @@ const Home: React.FC = () => {
                 <div className="w-[345px] h-[285px] left-[259px] top-[33px] absolute text-right"><span className="text-bwhite text-xl font-normal font-['Space Grotesk']">worked 4 days on a production line<br/></span><span className="text-bwhite text-xl font-normal font-['Space Grotesk']">developed teamwork skills<br/></span><span className="text-bwhite text-xl font-normal font-['Space Grotesk']"><br/>worked a week doing video editing<br/></span><span className="text-bwhite text-xl font-normal font-['Space Grotesk']">gained familiarity with premiere<br/>beat syncing, motion, stabilisation, time remapping, effects, colour correction and audio editing<br/></span><span className="text-bwhite text-xl font-normal font-['Space Grotesk']"><br/>worked three days in a coffee shop</span></div>
             </div>
         </div>
+        <DetectionComponent />
         <PlayerComponent />
       </div>
     );
-};
+});
   
+Home.displayName = 'Home';
+
 export default Home;

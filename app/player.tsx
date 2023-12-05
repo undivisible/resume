@@ -2,7 +2,7 @@
 import React, { useEffect } from 'react';
 import anime from 'animejs'; // Import the anime library
 
-const PlayerComponent: React.FC = () => {
+const PlayerComponent = React.memo(() => {
     useEffect(() => {
         anime({
             targets: '.one',
@@ -38,6 +38,8 @@ const PlayerComponent: React.FC = () => {
         });
     }, []);
     return null; // No need to render anything for this component
-};
+});
+
+PlayerComponent.displayName = 'PlayerComponent';
 
 export default PlayerComponent;
