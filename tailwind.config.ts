@@ -15,9 +15,9 @@ const config: Config = {
       },
     },
     colors: {
-      'lgray': '#242526',
-      'dgray': '#18191a',
-      'bwhite': '#e4e6eb',
+      'lgray': '#222524',
+      'dgray': '#1d201f',
+      'white': '#ffffff',
     }
   },
 }

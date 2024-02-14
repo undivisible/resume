@@ -5,7 +5,7 @@ import anime from 'animejs'; // Import the anime library
 const PlayerComponent = React.memo(() => {
     useEffect(() => {
         anime({
-            targets: '.one',
+            targets: '.three',
             translateY: [-50, 0],
             opacity: [0, 1],
             easing: 'easeOutSine',
@@ -21,7 +21,7 @@ const PlayerComponent = React.memo(() => {
             delay: anime.stagger(300), // Adjust the delay for the start of each animation
         });
         anime({
-            targets: '.three',
+            targets: '.one',
             translateY: [50, 0],
             opacity: [0, 1],
             easing: 'easeOutSine',
