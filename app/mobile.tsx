@@ -10,7 +10,7 @@ export default function Home() {
           <div className="w-[271px] h-[101px] left-[25px] top-[199px] absolute bg-neutral-800 rounded-[20px]" />
           <div className="w-[271px] h-[180px] left-[25px] top-[310px] absolute bg-neutral-800 rounded-[20px]" />
           <div className="w-[109px] h-[33px] left-[34px] top-[145px] absolute text-gray-200 text-sm font-normal font-['Space Grotesk']">max carter.</div>
-          <div className="w-[90px] h-[42px] left-[196px] top-[140px] absolute text-right text-gray-200 text-[8px] font-normal font-['Space Grotesk']">melbourne, australia.<br/>o@undivisible.dev<br/>undivisible.dev<br/>0481729894</div>
+          <div className="w-[90px] h-[42px] left-[196px] top-[140px] absolute text-right text-gray-200 text-[8px] font-normal font-['Space Grotesk']">melbourne, australia.<br/><a href="mailto:o@undivisible.dev">o@undivisible.dev</a><br/><a href="https://undivisible.dev/">undivisible.dev</a><br/>0481729894</div>
           <div className="w-[88px] h-[17px] left-[199px] top-[241px] absolute text-gray-200 text-base font-normal font-['Space Grotesk']">languages.</div>
           <div className="w-[97px] h-[68px] left-[36px] top-[216px] absolute text-gray-200 text-[10px] font-normal font-['Space Grotesk']">english - fluent<br/>cantonese - native<br/>chinese - hsk 5<br/>russian - b1/b2<br/>indonesian - a1</div>
           <div className="w-[88px] h-[22px] left-[122px] top-[389px] absolute text-center text-gray-200 text-lg font-normal font-['Space Grotesk']">skills</div>
