@@ -3,7 +3,7 @@ import PlayerComponent from './player';
 
 const Home: React.FC = () => {
     return (
-        <div className="w-[1280px] h-[720px] p-[30px] bg-zinc-900 justify-start items-start inline-flex">
+        <div className="bg-zinc-900 justify-start items-start inline-flex">
             <div className="w-[1220px] h-[660px] relative">
                 <div className="w-[333px] h-52 pl-[211px] pr-[15px] pt-[162px] pb-4 left-[887px] top-[452px] absolute bg-zinc-800 bg-opacity-50 rounded-[15px] justify-end items-center inline-flex four">
                     <div className="w-[107px] h-[30px] text-white text-2xl font-normal font-['Space Grotesk']">interests</div>
